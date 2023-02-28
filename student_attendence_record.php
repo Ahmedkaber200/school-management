@@ -2,7 +2,6 @@
       include("conn.php");
       include 'session.php';
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -145,7 +144,8 @@
                                                                         <td><input type="text" name="id" hidden
                                                                                 value="<?php echo $row['id'];?>"><?php echo $row[1]; ?>
                                                                         </td>
-                                                                        <input type="hidden" name="currentUser" value="<?php echo $res1['id']; ?>">
+                                                                        <input type="hidden" name="currentUser"
+                                                                            value="<?php echo $res1['id']; ?>">
                                                                         <td>
                                                                             <input type="radio"
                                                                                 name="atten[<?php echo $row['id'];?>]"
@@ -229,7 +229,8 @@
                                                                         <td><input type="text" name="id" hidden
                                                                                 value="<?php echo $row['id'];?>"><?php echo $row[1]; ?>
                                                                         </td>
-                                                                        <input type="hidden" name="currentUser" value="<?php echo $res1['id']; ?>">
+                                                                        <input type="hidden" name="currentUser"
+                                                                            value="<?php echo $res1['id']; ?>">
                                                                         <td>
                                                                             <input type="radio"
                                                                                 name="atten[<?php echo $row['id'];?>]"
