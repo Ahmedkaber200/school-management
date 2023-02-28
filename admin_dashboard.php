@@ -12,7 +12,6 @@
     <title>Document</title>
     <?php include('external_css/top_link.php') ?>
 </head>
-dndhdhdh
 <body>
 
         <?php
